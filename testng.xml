@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="cityName" value="Mumbai"/>
+    <parameter name="courseName" value="Java"/>
+    <parameter name="browserName" value="edge"/>
+    <listeners>
+        <listener class-name="testng.listerners.Transformation"/>
+    </listeners>
+    <test verbose="7" preserve-order="true" parallel="false" thread-count="3" name="D:/Repo/Learning_Repo/GT (1)/Maven_3_Dec_24">
+        <classes>
+            <class name="testng.basicoftestng.PriorityExample"/>
+        </classes>
+    </test>
+</suite>

@@ -3,7 +3,6 @@
 <suite name="All Test Suite">
     <parameter name="cityName" value="Mumbai"/>
     <parameter name="courseName" value="Java"/>
-    <parameter name="browserName" value="edge"/>
     <listeners>
         <listener class-name="testng.listerners.Transformation"/>
     </listeners>
